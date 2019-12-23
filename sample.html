@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://kit.fontawesome.com/0133144166.js" crossorigin="anonymous"></script>
+      <title>Materialize Test</title>
+      <style>
+        .class1{
+          color: rgb(200, 221, 233);
+          font-size: xx-large;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .class2{
+          font-size: large;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .mynav{
+          background-color: rgb(90, 109, 218);
+        }
+        .class3{
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: larger;
+        }
+        .class4{
+          color: rgb(95, 65, 206);
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .class5{
+          color:  rgb(90, 109, 218);;
+        }
+      </style>
+    </head>
+
+    <body id="home" class="grey lighten-2 scrollspy">
+      <div class="navbar-fixed">
+        <nav class=" z-depth-2 center mynav ">
+          <div class="container">
+              <div class="nav-wrapper class1 white-text">Car-Heaven
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                  <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down class2">
+                  <li>
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#search">Search</a>
+                  </li>
+                  <li>
+                    <a href="#popular">Popular Rides</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidenav" id="mobile-nav">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#search">Search Rides</a>
+        </li>
+        <li>
+          <a href="#popular">Popular Cars</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+
+      <!-- Section Slider-->
+
+
+      <section class="slider">
+        <ul class="slides">
+          <li>
+            <img src="photo-1547744152-14d985cb937f.jpeg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Take your Dream Ride here!</h3>
+              <h5 class="light grey-text text-lighten-2 ">Choose between wide variety of cars, which are obviously not real just to fool you guys xD!</h5>
+            </div>
+          </li>
+          <li>
+            <img src="photo-1530936541512-05ec5b6c6e71.jpeg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>No documents required!</h3>
+              <h5 class="light grey-text text-lighten-2 ">Cars for different Budgets</h5>
+            </div>
+          </li>
+          <li>
+            <img src="photo-1533666848461-7a7835e49fb1.jpeg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>Over thousands of satisfied customers all round the globe!</h3>
+              <h5 class="light grey-text text-lighten-2">For both commercial and domestic purposes!</h5>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- for the Search Bar-->
+      <section id="search" class="section section-search mynav darken-1 white-text center scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h2 class="class1 white-text">Search your Car</h2>
+              <div class="input-field">
+                <input type="text" class="white grey-text autocomplete center" id="autocomplete-input" placeholder="Mustang ,F150 ,Shelby etc...">
+              </div>
+            </div>
+            <h2 >Why you need Us?</h2>
+              <div class="container class3 ">
+                </p>Are you tired of searching for the right place for renting the car that you have always been wanting drive?
+                Well if the answer is yes, then dude you are in the right place!</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For the Icons-->
+      <section class="section section-icons white center">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card-panel z-depth-2">
+                <a href="#home">
+                <i class="material-icons large class5">room</i>
+                </a>
+                <h4>Your Location</h4>
+                <p>Help us to locate You</p>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card-panel z-depth-2">
+                <a href="#home">
+                <i class="material-icons large class5">time_to_leave</i>
+                </a>
+                <h4>Rides</h4>
+                <p>Featuring over 1000+ rides to choose from</p>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card-panel z-depth-2">
+                <a href="#home">
+                <i class="material-icons large class5">account_circle</i>
+                </a>
+                <h4>New Here?</h4>
+                <p>Be one among those satisfied thousands customers, by just signing in!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: popular cars-->
+      <section id="popular" class="section section-popular mynav scrollspy ">
+        <div class="container center">
+          <h3 class="white-text">Cars that you have always been Dreaming about!</h3>
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://www.india.ford.com/cars/mustang/">
+                  <img src="images.jpeg" alt="">
+                  <span class="card-title">Ford Mustang</span>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p>The legendary mustang! Who didnt grew up watching the mustang doing legendary stunts in various movies. Now its your time to drive one.(Obviously dont start doing record stunts, else you may have to call your lawyer xD)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://www.ford.com/trucks/f150/models/">
+                  <img src="images2.jpeg" alt="">
+                  <span class="card-title">Ford F150</span>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p>The monster inside the hood powered by the massive V-8 engine generating a 450hp.There would be a very few whose will remain uneffected with its presence within 5 mile radius xD </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://www.lamborghini.com/en-en/models/urus">
+                  <img src="images3.jpeg" alt="">
+                  <span class="card-title">Lamborghini Urus</span>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p>The first SUV by the racing gangster Lamborghini, so it can be assured that it did quite of its homework!. Packed with a massive V-8 engine producing a maximum torque of 800Nm and generating a max of 641hp. With all these inside its hood its surely a head-turner!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://www.dodge.com/charger/performance.html">
+                  <img src="images4.jpeg" alt="">
+                  <span class="card-title">Dodge Charger</span>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p>A Supercharged 6.2L SRT Hellcat V8 engine churns out a monstrous Best-in-Class 707 horsepower
+                     and uncorks 650 lb-ft of torque—making the 2019 Dodge Charger SRT® Hellcat the most powerful five-seat production car ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://www.dodge.com/challenger/performance.html">
+                  <img src="images5.jpeg" alt="">
+                  <span class="card-title">Dodge Challenger Hellcat</span>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p>The 2019 Dodge Challenger is a direct descendent of legendary racing lineage. Expect nothing but otherworldly power.The Challenger SRT® Hellcat wields the fury of a Supercharged 6.2L HEMI® SRT Hellcat V8 engine. With a sleek heritage-inspired design, this beast looks as menacing as it drives.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://www.suzuki.com.au/vehicles/hatch/swift-sport/specifications">
+                  <img src="images7.jpeg" alt="">
+                  <span class="card-title">Suzuki Swift</span>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p>Surely once a mama's boy turned out to be a rougue!.Equipped with a powerful turbocharged naturally aspirated V-6 engine that churns out 450hp at a max Torque of 650Nm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+          
+        
+      <!--Parallax-->
+
+      <div class="parallax-container">
+        <div class="parallax"><img src="photo-1533666848461-7a7835e49fb1.jpeg"></div>
+      </div>
+     
+
+      <!-- Section: Social Media Options-->
+      <section class="section section-follow white center scrollspy" >
+        <div class="container">
+          <h3 class="class5">Follow Us!</h3>
+          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, id.</h6>
+          <div class="row">
+            <div class="col s12">
+              <a href="https://www.facebook.com/" class="class5">
+                <i class="fab fa-facebook fa-4x"></i>
+              </a>
+              <a href="https://twitter.com/login?lang=en" class="class5">
+                <i class="fab fa-twitter fa-4x"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="class5">
+                  <i class="fab fa-instagram fa-4x"></i>
+              </a>
+              <a href="https://www.quora.com/" class="class5">
+                <i class="fab fa-quora fa-4x"></i>
+              </a>
+              <a href="https://aboutme.google.com/u/0/?referer=gplus" class="class5">
+                <i class="fab fa-google-plus fa-4x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Contact Us Card-->
+      <section class="section section-contact mynav scrollspy" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card-panel center z-depth-3">
+                <a href="#" class="href">
+                <i class="material-icons large z-depth-0 class5">email</i>
+                </a>
+                <h5>Email Us</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, velit.</p>
+              </div>
+              <div class="card-panel center z-depth-3">
+                <a href="#" class="href">
+                <i class="material-icons large z-depth-0 class5">phone</i>
+                </a>
+                <h5>Call Us</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, velit.</p>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="div div-form">
+                <div class="card-panel center z-depth-3">
+                  <h5 class="center">Please fill in the Form</h5>
+                    <form action="" method="post">
+                      <input type="text" placeholder="First Name">
+                      <input type="text" placeholder="Last Name">
+                      <input type="email" placeholder="Email">
+                      <input type="text" placeholder="Country">
+                    </form>
+                    <div class="btn center mynav">Submit</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
+      <footer class="white grey-text center">
+        <div class="white">
+          <h6>Copyright@2020 Car-Heaven</h6>
+        </div>
+      </footer>
+      
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider,{
+          indicators: false,
+          height: 500,
+          transition: 8000,
+          interval: 4000
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax, {});
+
+
+        const autocomplete = document.querySelectorAll('.autocomplete');
+        M.Autocomplete.init(autocomplete,{
+          data: {
+            "Ford Mustang": null,
+            "Dodge Raptor": null,
+            "Dodge Hellcat": null,
+            "Dodge Viper": null,
+            "Ford Endeaveour": null,
+            "Lamborghini Urus": null,
+            "Ford F150": null,
+
+          }
+        });
+
+
+        const ss = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(ss,{}); 
+
+      </script>
+
+    </body>
+  </html>
